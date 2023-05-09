@@ -17,7 +17,7 @@ const HeaderStyles = styled.header`
 const Header = () => {
   return (
     <HeaderStyles>
-      <h1>Jimmy Tidey</h1>
+      <h1>Dr Jimmy Tidey</h1>
     </HeaderStyles>
   );
 };
