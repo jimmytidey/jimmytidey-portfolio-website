@@ -12,6 +12,7 @@ const HeaderStyles = styled.header`
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
+  text-align: center;
 `;
 
 const Header = () => {

@@ -2,8 +2,10 @@ import styled from "styled-components";
 import Project from "../components/Project";
 import LTNImage from "../assets/images/ltn.png";
 import LocalNetsImage from "../assets/images/localnets.png";
-import GaleShapleyImage from "../assets/images/gale-shapley.png";
+import GaleShapleyImage from "../assets/images/gale-shapley.webp";
 import WhoCitesImage from "../assets/images/whocites.png";
+import StoryMap from "../assets/images/storymap.webp";
+import MPD from "../assets/images/mpd.jpeg";
 
 const ProjectsTitleStyles = styled.h2``;
 
@@ -17,12 +19,38 @@ const Projects = () => {
       <div className="narrow-wrapper">
         <ProjectsTitleStyles>Selected Projects</ProjectsTitleStyles>
         <ProjectsIntroStyles>
-          Please as for a copy of my porfolio for my most recent work.
+          For a detailed potfolio of my most recent work, please contact me at
+          jimmytidey@gmail.com.
         </ProjectsIntroStyles>
       </div>
       <div className="narrow-wrapper">
-        <Project projectName={"LTN network analysis"} projectImage={LTNImage}>
-          <p>Copy coming up</p>
+        <Project
+          projectName={
+            "How have Low Traffic Neighbourhoods ignited a culture war on Twitter?"
+          }
+          projectImage={LTNImage}
+        >
+          <p>
+            <a href="How have Low Traffic Neighbourhoods ignited a culture war on Twitter?">
+              Link to write up
+            </a>
+          </p>
+          <p>
+            Many cities across the UK are implemetning Low Traffic
+            Neighbourhoods - roads closed to through traffic. It's been a
+            devisive issue, I used the LocalNets software I developed in PhD to
+            analyse the discussion on Twitter.
+          </p>
+
+          <p>
+            The project was picked up by
+            <a href="https://www.forbes.com/sites/carltonreid/2020/12/12/handful-of-twitter-users-can-sway-council-decisions-finds-data-analysis-of-low-traffic-neighborhood-posts/?sh=7dcf5c7d70e5">
+              Forbes
+            </a>
+            , and lead to research projects with two sustainable transport
+            advocacy organisations: Sustrans in the UK and People for Bikes in
+            the US.
+          </p>
         </Project>
 
         <Project projectName={"LocalNets / PhD"} projectImage={LocalNetsImage}>
@@ -61,6 +89,31 @@ const Projects = () => {
           <p>
             Developed to answer a personal need, nearly 300 other academics have
             registered to use the tool.
+          </p>
+        </Project>
+
+        <Project projectName={"StoryMap"} projectImage={StoryMap}>
+          <p>
+            <a href="https://jimmytidey.wordpress.com/2016/05/18/storymap-participatory-mapping/">
+              Link to writeup
+            </a>
+          </p>
+          <p>
+            StoryMap was a digital/physical installation developed as part of
+            the Shakespeare in Shoreditch festival. Participants used
+            typewriters to record anecdotes from around Shoreditch and locate
+            them on a semi-fictional map of east London. It featured local
+            Twitter activity drawn from Localnets. This project was lead by
+            fellow PhD candidate Benjamin Koslowski.
+          </p>
+        </Project>
+
+        <Project projectName={"Million Pound Drop"} projectImage={MPD}>
+          <p>
+            I worked on integrating an online game with Channel 4's Million
+            Pound Drop TV show. It was one of the most successful integrations
+            of its type, on some occasions over 10% of TV viewers were also
+            playing along online.
           </p>
         </Project>
       </div>

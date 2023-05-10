@@ -20,7 +20,7 @@ const IntroStyles = styled.div`
 
 const HeadShotImageStyles = styled.img`
   border-radius: 50%;
-  border: 5px solid rgba(255, 255, 255, 1);
+  border: 10px solid rgba(255, 255, 255, 1);
   width: 100%;
   box-sizing: border-box;
   height: auto;
@@ -37,20 +37,27 @@ const Intro = () => {
         <ul>
           <li>
             <span>
-              Organising and moderating user interviews, focus groups, design
-              sprints.
+              Planning and executing user research programs, including user
+              interviews, focus groups, design sprints.
             </span>
           </li>
           <li>
-            <span>Data analysis, particularly using SQL and BigQuery.</span>
+            <span>Data analysis: Python, SQL/BigQuery.</span>
+          </li>
+          <li>
+            <span>Prototyping, including Front-end development and Figma.</span>
           </li>
           <li>
             <span>
-              Prototyping, including Front-end development, Python and Figma.
+              Written communication and literature reviews, including writing
+              for academic, business and user-facing settings.
             </span>
           </li>
           <li>
-            <span>Written communication.</span>
+            <span>
+              Interdisplinary / cross-functional projects between engeineering,
+              academia and marketing.
+            </span>
           </li>
         </ul>
       </IntroStyles>
