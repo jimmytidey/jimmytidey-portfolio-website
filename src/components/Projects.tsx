@@ -1,11 +1,14 @@
 import styled from "styled-components";
 import Project from "../components/Project";
-import LTNImage from "../assets/images/ltn.png";
+import LTNImage from "../assets/images/ltn.webp";
 import LocalNetsImage from "../assets/images/localnets.png";
 import GaleShapleyImage from "../assets/images/gale-shapley.webp";
 import WhoCitesImage from "../assets/images/whocites.png";
 import StoryMap from "../assets/images/storymap.webp";
 import MPD from "../assets/images/mpd.jpeg";
+import BBC from "../assets/images/bbc.gif";
+import WTM from "../assets/images/wtm.png";
+import OpenCare from "../assets/images/opencare.png";
 
 const ProjectsTitleStyles = styled.h2``;
 
@@ -114,6 +117,50 @@ const Projects = () => {
             Pound Drop TV show. It was one of the most successful integrations
             of its type, on some occasions over 10% of TV viewers were also
             playing along online.
+          </p>
+        </Project>
+
+        <Project projectName={"BBC Lab UK"} projectImage={BBC}>
+          <p>
+            While at the BBC I worked on Brain Test Britain, an online
+            experiment to see if brain training works (it doesn't!) with over
+            100,000 participants. The work resulted in a paper in the journal
+            Nature and was one of the first psychology experiments carried out
+            on the web.
+          </p>
+
+          <p>
+            I also worked on the Great British Class Survey, which generated
+            unique insights into emerging class structures in the UK.
+          </p>
+        </Project>
+
+        <Project projectName={"Who Targets Me?"} projectImage={WTM}>
+          <p>
+            Who Targets Me is a browser extension that collects data about the
+            political adverts people see on Facebook. It was developed in the
+            run up to the 2017 general election to combat ‘dark adverts’. It had
+            over 20,000 installs and has since been deployed in Austria and
+            Germany. It was supported by The Bureau of Investigative Journalism
+            and The Guardian.
+          </p>
+          <p>
+            I helped the team with communications, writing blog posts and
+            appearing on Radio 4 and BBC World Service to describe the project.
+          </p>
+        </Project>
+
+        <Project projectName={"Open Care"} projectImage={OpenCare}>
+          <p>
+            The OpenCare report investigated non-traditional healthcare
+            projects. LocalNets mapped Twitter activity around projects
+            developing open source insulin pumps, 3D printed prosthetics &
+            smartphone based healthcare in developing countries.
+          </p>
+
+          <p>
+            It contributed to Edgeryders’ (a ‘distributed think tank’) report on
+            open healthcare innovation, commissioned by the EU.
           </p>
         </Project>
       </div>

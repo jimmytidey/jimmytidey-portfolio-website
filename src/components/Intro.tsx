@@ -31,13 +31,12 @@ const Intro = () => {
     <>
       <IntroStyles>
         <p>
-          I bring a user-centered approach to User Experience Research and
-          Service Design. I have PhD in design research. My skills include:
+        I bring academic rigor and technical knowledge to user experience research and service design. 
         </p>
         <ul>
           <li>
             <span>
-              Planning and executing user research programs, including user
+              Planning and executing user research projects, including user
               interviews, focus groups, design sprints.
             </span>
           </li>
@@ -59,7 +58,7 @@ const Intro = () => {
               academia and marketing.
             </span>
           </li>
-        </ul>
+        
       </IntroStyles>
       <HeadShotContainerStyles>
         <HeadShotImageStyles src={HeadShot} />
