@@ -15,21 +15,12 @@
   --wide-width: 55em;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.main-wrapper { 
+  padding:0px 8px 0px 8px;
 }
 
 h1 { 
-  color:hsl(48, 100%, 95%);
+  color:white;
   font-weight: 700;
 }
 

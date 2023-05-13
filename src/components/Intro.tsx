@@ -32,17 +32,18 @@ const Intro = () => {
       <IntroStyles>
         <p>
           I bring academic rigor and technical knowledge to user experience
-          research and service design.
+          research and service design. Industry experience and a design research
+          PhD inform my approach to UXR and service design.
         </p>
         <ul>
           <li>
             <span>
-              Planning and executing user research projects, including user
-              interviews, focus groups, design sprints.
+              Planning and executing research projects, In-depth user
+              interviews, focus groups, concept testing, design sprints.
             </span>
           </li>
           <li>
-            <span>Data analysis: Python, SQL/BigQuery.</span>
+            <span>Data analysis: Python, SQL.</span>
           </li>
           <li>
             <span>Prototyping, including Front-end development and Figma.</span>

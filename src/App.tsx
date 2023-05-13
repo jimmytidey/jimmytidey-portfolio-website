@@ -8,14 +8,16 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="narrow-wrapper">
-        <Intro></Intro>
+      <div className="main-wrapper">
+        <div className="narrow-wrapper">
+          <Intro></Intro>
 
-        <h2>Summary Employment History</h2>
+          <h2>Summary Employment History</h2>
+        </div>
+        <Employment></Employment>
+
+        <Projects></Projects>
       </div>
-      <Employment></Employment>
-
-      <Projects></Projects>
     </>
   );
 }
