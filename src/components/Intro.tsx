@@ -31,7 +31,8 @@ const Intro = () => {
     <>
       <IntroStyles>
         <p>
-        I bring academic rigor and technical knowledge to user experience research and service design. 
+          I bring academic rigor and technical knowledge to user experience
+          research and service design.
         </p>
         <ul>
           <li>
@@ -58,7 +59,7 @@ const Intro = () => {
               academia and marketing.
             </span>
           </li>
-        
+        </ul>
       </IntroStyles>
       <HeadShotContainerStyles>
         <HeadShotImageStyles src={HeadShot} />
