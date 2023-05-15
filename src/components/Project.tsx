@@ -32,18 +32,17 @@ const ProjectImageStyles = styled.img`
   height: auto;
 `;
 
-const ProjectHRStyles = styled.hr`
-  flex: 0 0 100%;
+const ProjectSeparatorStyles = styled.div`
+  border-top: 1px dashed black;
   width: 100%;
-  height: 1px;
-  border: none;
-  height: 1px;
-  background-color: black;
+  height: 1em;
+  margin-top: 1em;
 `;
 
 function Project({ projectName, projectImage, children }: Props) {
   return (
     <>
+      <ProjectSeparatorStyles></ProjectSeparatorStyles>
       <ProjectDescriptionStyles>
         <ProjectNameStyles>{projectName}</ProjectNameStyles>
         {children}
@@ -51,7 +50,6 @@ function Project({ projectName, projectImage, children }: Props) {
       <ProjectImageContainerStyles>
         <ProjectImageStyles src={projectImage} />
       </ProjectImageContainerStyles>
-      <ProjectHRStyles />
     </>
   );
 }
