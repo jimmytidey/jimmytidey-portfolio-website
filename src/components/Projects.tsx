@@ -56,7 +56,10 @@ const Projects = () => {
           </p>
         </Project>
 
-        <Project projectName={"LocalNets / PhD"} projectImage={LocalNetsImage}>
+        <Project
+          projectName={"LocalNets / Design Research PhD"}
+          projectImage={LocalNetsImage}
+        >
           <p>
             Localnets is a Twitter analytics tool designed for use by local
             government institutions. I developed Localnets in the course of my
