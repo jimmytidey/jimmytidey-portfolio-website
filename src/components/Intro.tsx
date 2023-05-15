@@ -31,17 +31,35 @@ const Intro = () => {
     <>
       <IntroStyles>
         <p>
-          I bring academic rigor and technical knowledge to user experience
-          research and service design. Industry experience and a design research
-          PhD inform my approach to UXR and service design.
+          I bring a range of divergent skills and experiences to user experience
+          research and service design.
         </p>
+        <p>
+          Industry experience and a design research PhD inform my approach to
+          planning and executing UXR programs. I have data analysis and
+          prototyping skills (React/Python/SQL).
+        </p>
+        <p>
+          I have a range of skills and a divergent which I've found beneficial
+          in UXR settings; I love wokring cultures and specialismsI've worked in
+          engineering, marketing, government and academic settings.
+        </p>
+        <br />
         <ul>
           <li>
             <span>
-              Planning and executing research projects, In-depth user
-              interviews, focus groups, concept testing, design sprints.
+              UXR skills: Planning and executing research projects, in-depth
+              user interviews, focus groups, concept testing, design sprints,
+              for example most recently in my roles at Google.
             </span>
           </li>
+          <li>
+            <span>
+              Written communication and literature reviews, including writing
+              for academic, business and user-facing settings.
+            </span>
+          </li>
+
           <li>
             <span>Data analysis: Python, SQL.</span>
           </li>
@@ -50,14 +68,9 @@ const Intro = () => {
           </li>
           <li>
             <span>
-              Written communication and literature reviews, including writing
-              for academic, business and user-facing settings.
-            </span>
-          </li>
-          <li>
-            <span>
-              Interdisplinary / cross-functional projects between engeineering,
-              academia and marketing.
+              Technical project management, reviewing technical design, managing
+              Google Cloud Platform projects, managing agencies delivering
+              technical projects.
             </span>
           </li>
         </ul>
