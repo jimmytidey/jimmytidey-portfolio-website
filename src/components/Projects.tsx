@@ -46,7 +46,7 @@ const Projects = () => {
           </p>
 
           <p>
-            The project was picked up by
+            The project was picked up by{" "}
             <a href="https://www.forbes.com/sites/carltonreid/2020/12/12/handful-of-twitter-users-can-sway-council-decisions-finds-data-analysis-of-low-traffic-neighborhood-posts/?sh=7dcf5c7d70e5">
               Forbes
             </a>
