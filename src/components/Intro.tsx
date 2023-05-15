@@ -17,7 +17,7 @@ const IntroStyles = styled.div`
   width: calc(var(--narrow-width) * 0.6);
   flex-basis: calc(var(--narrow-width) * 0.6);
   padding-top: 2em;
-  padding-right: 1em;
+  padding-right: 2em;
 `;
 
 const HeadShotImageStyles = styled.img`
@@ -68,7 +68,9 @@ const Intro = () => {
 
           <li>
             <span>
-              <strong>Data analysis </strong> - Python, SQL.
+              <strong>Technical project management </strong> - reviewing
+              technical designs, managing Google Cloud Platform projects,
+              managing agencies delivering technical projects.
             </span>
           </li>
           <li>
@@ -79,9 +81,7 @@ const Intro = () => {
           </li>
           <li>
             <span>
-              <strong>Technical project management </strong> - reviewing
-              technical designs, managing Google Cloud Platform projects,
-              managing agencies delivering technical projects.
+              <strong>Data analysis </strong> - Python, SQL.
             </span>
           </li>
         </ul>
