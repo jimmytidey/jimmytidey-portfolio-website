@@ -22,7 +22,7 @@ const Projects = () => {
       <div className="narrow-wrapper">
         <ProjectsTitleStyles>Selected Projects</ProjectsTitleStyles>
         <ProjectsIntroStyles>
-          For a detailed potfolio of my most recent work, please contact me at
+          For a detailed portfolio of my most recent work, please contact me at
           jimmytidey@gmail.com.
         </ProjectsIntroStyles>
       </div>
