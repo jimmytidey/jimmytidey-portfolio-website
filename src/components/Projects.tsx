@@ -50,7 +50,7 @@ const Projects = () => {
             <a href="https://www.forbes.com/sites/carltonreid/2020/12/12/handful-of-twitter-users-can-sway-council-decisions-finds-data-analysis-of-low-traffic-neighborhood-posts/?sh=7dcf5c7d70e5">
               Forbes
             </a>
-            , and lead to research projects with two sustainable transport
+            , and led to research projects with two sustainable transport
             advocacy organisations: Sustrans in the UK and People for Bikes in
             the US.
           </p>
@@ -109,8 +109,8 @@ const Projects = () => {
             the Shakespeare in Shoreditch festival. Participants used
             typewriters to record anecdotes from around Shoreditch and locate
             them on a semi-fictional map of east London. It featured local
-            Twitter activity drawn from Localnets. This project was lead by
-            fellow PhD candidate Benjamin Koslowski.
+            Twitter activity drawn from Localnets. Benjamin Koslowski, fellow
+            PhD candidate, led the project.
           </p>
         </Project>
 
