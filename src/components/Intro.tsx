@@ -55,7 +55,7 @@ const Intro = () => {
           <li>
             <span>
               <strong>Data analysis & AI </strong> - Python/Jupyter Notebook
-              (Pandas, Sklearn) SQL, LangChain (See
+              (Pandas, Sklearn, etc.) SQL, LangChain (See
               <a href="https://github.com/jimmytidey">GitHub page</a>)
             </span>
           </li>
