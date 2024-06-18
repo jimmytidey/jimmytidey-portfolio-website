@@ -48,10 +48,17 @@ const Intro = () => {
         <p>
           I love bridging across cultures and specialisms, my divergent
           background has helped me to make unique contributions in settings
-          ranging from startups to my PhD research to working at Google.
+          ranging from startups, to academic research to working at Google.
         </p>
 
         <ul>
+          <li>
+            <span>
+              <strong>Data analysis & AI </strong> - Python/Jupyter Notebook
+              (Pandas, SciKitLearn, SQL, LangChain (See
+              <a href="https://github.com/jimmytidey">GitHub page</a>)
+            </span>
+          </li>
           <li>
             <span>
               <strong>Research skills </strong> - Planning and executing
@@ -61,8 +68,9 @@ const Intro = () => {
           </li>
           <li>
             <span>
-              <strong>Written communication </strong> - literature reviews and
-              writing for academic, business and user-facing settings.
+              <strong>Written communication & research </strong> - literature &
+              policy reviews, writing for academic, business and user-facing
+              settings.
             </span>
           </li>
 
@@ -77,11 +85,6 @@ const Intro = () => {
             <span>
               <strong>Prototyping </strong> - Python, Front-end development and
               Figma.
-            </span>
-          </li>
-          <li>
-            <span>
-              <strong>Data analysis </strong> - Python, SQL.
             </span>
           </li>
         </ul>
